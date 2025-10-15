@@ -27,10 +27,10 @@ Each agent alternates between three behavioral modes:
 Agents exchange information over a **social learning range (ρ)**, which governs the spatial scale of communication.  
 The model explores how increasing ρ changes:
 
-- **Efficiency (η)** — group-level foraging success.  
+- **Efficiency ($\eta$)** — group-level foraging success.  
 - **Behavioral allocation** — the proportion of time spent exploring, exploiting, or targeted walk. 
 - **Stability** — the consistency of resource intake across the group of agents.
-- **Equity (σ)** — fairness of target distribution among agents.  
+- **Equity ($\sigma$)** — fairness of target distribution among agents.  
 
 This model extends previous foraging frameworks by introducing **negative patches**, representing harmful or deceptive areas that reduce the total payoff and test agents’ collective robustness.
 
