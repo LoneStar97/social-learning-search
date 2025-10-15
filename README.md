@@ -12,7 +12,7 @@ This repository contains Python scripts and simulation data for studying **colle
 	- [Introducing Negative Patches](#introducing-negative-patches)
 - [🚀 Running the Model & Analysis Approach](#-running-the-model--analysis-approach)
 - [⚙️ Dependencies](#️-dependencies)
-- 
+
 ---
 
 ## 📝 Model Overview
