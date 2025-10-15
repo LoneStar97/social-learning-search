@@ -123,9 +123,9 @@ python Target_distribution/FixTar_Positive.py
 
 # Positive + Negative environment
 python Target_distribution/FixTar_Negative.py```
-
-###  2️⃣ Run Simulations
 ```
+###  2️⃣ Run Simulations
+```bash
 # Run based model 
 python BaseModel/Parallel_FixTar_Rv0.01.py
 
@@ -134,7 +134,7 @@ python Parallel_FixTar_Rv0.01.py
 ```
 
 ### 3️⃣ Run Analysis and Plot Figures
-```
+```bash
 python Figures/Figure1.py   # schematic diagram
 python Figures/Figure2.py   # efficiency and behavioral ratios
 python Figures/Figure3.py   # equity PDFs
@@ -142,7 +142,7 @@ python Figures/Figure4.py   # negative patch comparisons
 ```
 
 ## ⚙️ Dependencies
-```
+```bash
 Python >= 3.9
 numpy
 scipy
