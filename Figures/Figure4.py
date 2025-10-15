@@ -8,11 +8,11 @@ import os
 # ============================================================
 # 1. Load data
 # ============================================================
-base_dir = r'D:\OneDrive - University of Pittsburgh\CollectiveForagingData\6000T'
+base_dir = r'C:\Users\Starr\Documents\GitHub\social-learning-search\Figures'
 rho_series = [0.01, 0.02, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3,
               0.35, 0.4, 0.45, 0.5, 0.6, 0.7]
 
-with h5py.File(os.path.join(base_dir, 'A_Figure3_PlotData.h5'), 'r') as hdf:
+with h5py.File(os.path.join(base_dir, 'Figure4_PlotData.h5'), 'r') as hdf:
     agg_nor  = hdf['agg_nor'][:]
     agg_neg  = hdf['agg_neg'][:]
     agg_time = hdf['agg_time'][:]

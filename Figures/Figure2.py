@@ -20,7 +20,7 @@ rho_series = None  # Will be loaded from file
 
 rho_series = [0.01, 0.02, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175, 0.2, 0.225, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.7]
 # Load plotting data from HDF5
-with h5py.File(os.path.join(base_dir, 'A_Figure2_PlotData.h5'), 'r') as hdf:
+with h5py.File(os.path.join(base_dir, 'Figure2_PlotData.h5'), 'r') as hdf:
     agg_effi = hdf['agg_effi'][:]
     std_effi = hdf['std_effi'][:]
     agg_fe = hdf['agg_fe'][:]
