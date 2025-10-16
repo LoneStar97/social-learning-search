@@ -32,7 +32,7 @@ The model explores how increasing ρ changes:
 - **Stability** — the consistency of resource intake across the group of agents.
 - **Equity ($\sigma$)** — fairness of target distribution among agents.  
 
-This model extends previous foraging frameworks by introducing **negative patches**, representing harmful or deceptive areas that reduce the total payoff and test agents’ collective robustness.
+This model extends previous foraging frameworks by introducing **negative patches**, representing harmful or deceptive areas that reduce the total payoff and test agents’ collective robustness. Note that the target distribution and initial positions of agents are generated randomly.
 
 ---
 
